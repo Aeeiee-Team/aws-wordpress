@@ -37,8 +37,8 @@ function aeeiee_s3_enqueue_scripts($hook_suffix)
         wp_enqueue_script('aeeiee-js', plugins_url('/aeeiee-s3.js', __FILE__));
 
         $aws_vars = array(
-            'accessKeyId' => "AKIAILZNGTLP4NLZHLRQ",
-            'secretAccessKey' => "yjXHgboJfZYJ5/NVUpFGhrHqIXCQ30Q74Xzr+1Bw",
+            'accessKeyId' => "YOUR ACCESS KEY ID",
+            'secretAccessKey' => "YOUR SECRET ACCESS KEY",
         );
 
         // pass AWS Keys from the server to the client
